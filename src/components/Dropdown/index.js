@@ -1,13 +1,12 @@
 import "./style.css"
 
-const Dropdown = ({label}) => {
-    return(
-        <div class="dropdown">
-            <button class="dropbtn">{label}</button>
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+const Dropdown = ({ label }) => {
+    return (
+        <div className="dropdown">
+            <button className="dropbtn">{label}</button>
+            <div className="dropdown-content">
+                <a href="#">Perfil</a>
+                <a className="exit" href="#">Sair</a>
             </div>
         </div>
     )

@@ -15,24 +15,22 @@ function App() {
     <Container>
       <Header>
         <Brand>
-          <Logo image="robot.gif" circle/>
+          <Logo image="robot.gif" circle />
           <Title>Bot Admin</Title>
         </Brand>
         <User>
-          <img width="40" height="40" style={{marginRight: '8px', borderRadius: '50px', backgroundColor: 'white' }} />
-          <Dropdown label="Marcos Fernando" />  
-          <span style={{color: 'white'}} >Marcos Fernando Costa</span>
+          <Dropdown label="Marcos Fernando" />
         </User>
       </Header>
       <Body>
         <Content>
-          ssss          
+          ssss
         </Content>
         <Sidebar>
           <Menu />
         </Sidebar>
       </Body>
-    </Container>  
+    </Container>
   );
 }
 export default App;
