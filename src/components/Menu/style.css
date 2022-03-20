@@ -1,33 +1,17 @@
-  
-  .menu {
-    margin-top: 5px;
-    width: inherit;
-    height: inherit;
-    white-space: nowrap;
-  }
 
-  .menu li {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    vertical-align: middle;
-  }
+  .nav-link:hover {
+    color: #fefefe !important;
+    background-color: #073869 !important
+}
 
-  .menu span {
-    margin-right: 4px;
-    color:'#073869'
-  }
+.nav-link{
+  color: #13508d !important
+}
 
-  a{
-    color: #080808;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  a:hover {
-    color: #002d5b;
-    font-weight: bold;
-    font-size: 17px;
-  }
-  
+.nav-link .fa {
+    transition: all 1s
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg)
+}

@@ -1,17 +1,23 @@
 import "./style.css"
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div className="menu">
-      <ul>
-        <li><span className="material-icons">face</span><a href="#"> Bots</a></li>
-        <li><span className="material-icons">help_outline</span><a href="#"> Perguntas</a></li>
-        <li><span className="material-icons">record_voice_over</span><a href="#"> Respostas</a></li>
-        <li><span className="material-icons">settings</span><a href="#"> Configuraçoes</a></li>
-        <li><span className="material-icons">edit_calendar</span><a href="#"> Agendamentos</a></li>
-        <li><span className="material-icons">cake</span><a href="#"> Aniversários</a></li>
+    <div>
+     <div className="d-flex flex-column vh-50 flex-shrink-0 pt-2" style={{width: '200px'}}> 
+      <ul className="nav nav-pills flex-column mb-auto">
+        <li className="nav-item"> 
+          <Link className="nav-link" to="/pagamentos"><span className="material-icons">attach_money</span> Pagamentos</Link>
+        </li>
+        <li className="nav-item"> 
+          <Link className="nav-link" to="/passageiros"><span className="material-icons">face</span> Passageiros</Link>
+        </li>
+        <li className="nav-item"> 
+          <Link className="nav-link" to="/familias"><span className="material-icons">groups</span> Famílias</Link>
+        </li>
       </ul>
-    </div>
+    </div> 
+  </div>
   )
 };
 

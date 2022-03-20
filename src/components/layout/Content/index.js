@@ -5,5 +5,6 @@ const Content = styled.main`
     overflow: auto;
     padding-left: 10px;
     padding-top: 10px;
+    padding-right: 10px;
 `;
 export default Content;
